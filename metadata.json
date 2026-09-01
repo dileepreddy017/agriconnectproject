@@ -1,0 +1,6 @@
+{
+  "name": "AgriConnect",
+  "description": "Smart Agriculture Marketplace connecting farmers, buyers, agri-suppliers, and delivery partners with real-time tracking.",
+  "requestFramePermissions": ["geolocation", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
