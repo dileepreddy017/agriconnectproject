@@ -1560,7 +1560,7 @@ Include this mandatory disclaimer at the very end: "*Note: AI agricultural guida
   if (ai) {
     try {
       const response = await ai.models.generateContent({
-        model: 'gemini-3.7-flash',
+        model: 'gemini-3.6-flash',
         contents: prompt,
         config: {
           systemInstruction,
