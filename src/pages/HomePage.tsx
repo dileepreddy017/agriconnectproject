@@ -163,6 +163,39 @@ export const HomePage: React.FC<HomePageProps> = ({ setCurrentTab }) => {
 
       </section>
 
+      {/* AGRICONNECT EXPLAINER VIDEO */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center max-w-2xl mx-auto mb-8 space-y-3">
+          <span className="inline-flex items-center gap-2 bg-[#eaf7e8] text-[#176b3a] px-4 py-1.5 rounded-full text-xs font-extrabold uppercase tracking-wider">
+            <Sprout className="w-4 h-4" />
+            Meet AgriConnect
+          </span>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#17351f] font-['Poppins',sans-serif]">
+            Discover How AgriConnect Works
+          </h2>
+          <p className="text-sm sm:text-base text-gray-500 leading-relaxed">
+            From fresh farm produce to smart agricultural tools, explore how AgriConnect connects farmers, buyers, and delivery partners.
+          </p>
+        </div>
+
+        <div className="overflow-hidden rounded-3xl border border-[#dce9d9] bg-[#102d19] shadow-2xl">
+          <video
+            className="w-full aspect-video object-contain"
+            controls
+            playsInline
+            preload="metadata"
+            poster="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1400&q=85"
+          >
+            <source src="/agriconnect-demo.mp4" type="video/mp4" />
+            Your browser does not support HTML video.
+          </video>
+        </div>
+
+        <p className="text-center text-xs text-gray-400 mt-4">
+          🌱 Connecting farms, empowering farmers, delivering freshness.
+        </p>
+      </section>
+
       {/* PLATFORM KEY PILLARS */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
